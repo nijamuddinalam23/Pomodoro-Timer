@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timmer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <small>By Nizam.</small>
+    <div class="header">
+     <h1> Pomodoro Timer</h1>
+    </div>
+    <div class="timer">
+
+      <input  type="number" id="time" placeholder="enter minute...">
+      <button onclick="userInput()" style="background-color: black;color: #fff;">submit</button>
+      <h1 id="timer">00:00</h1>  
+    </div>
+   <div class="btn">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+    <button id="reset">Reset</button>
+   </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
