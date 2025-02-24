@@ -17,6 +17,7 @@ body{
  text-align: center;
  margin-top: 10px;
 }
+
 input{
   border-radius: 10px;border: 1px solid;padding: 2px; height: 35px; width: 40%;
 }
@@ -28,7 +29,8 @@ input{
   gap: 30px;
   background-color: white;
   border-radius: 10px;
-  width: 400px;
+  width: 450px;
+  min-height: 100vh;
   height: auto;
   text-align: center;
   border-top-right-radius: 20px 20px;
