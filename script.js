@@ -25,12 +25,14 @@ start.addEventListener('click', ()=>{
     else{
       second--;
     }
-   timer.textContent = `${minutes}:${second>=10 ? second : `0${second}`}`;
+   timer.textContent = `${minutes>=10? minutes: `0${minutes}`}:${second>=10 ? second : `0${second}`}`;
   }, 1000);
+  start.style.display = "none";
   return timerId;
 })
 pause.addEventListener('click',()=>{
   clearTimeout(timerId);
+  start.style.display = "flex";
 });
 reset.addEventListener('click' , ()=>{
   minutes = 0;
