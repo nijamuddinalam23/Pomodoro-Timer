@@ -33,7 +33,7 @@ pause.addEventListener('click',()=>{
   clearTimeout(timerId);
 });
 reset.addEventListener('click' , ()=>{
-  minutes =25;
+  minutes = 0;
   second = 0;
-  timer.innerHTML = `${minutes} :${second>=10 ? second : `0${second}`}`
+  timer.innerHTML = `${minutes >=10 ? minutes : `0${minutes}`} :${second>=10 ? second : `0${second}`}`
 })

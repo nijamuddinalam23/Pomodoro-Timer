@@ -50,12 +50,15 @@ input{
 } 
 .btn #start{
   background-color: green;
+
 }
 .btn #pause{
   background-color: red;
+
 }
 .btn #reset{
   background-color:yellow;
+  color: brown;
 }
 
 button{
